@@ -5,9 +5,27 @@ html {
 body {
 	background-color:#FFFFFF;
 	padding: 2rem 10%;
+	font-family: Arial; sans-serif;
 }
 
+h1 {
+	color:#9A0500;
+	font-size: 1.5rem;
+}
+
+h2 {
+	color:#9A0500;
+	font-size: 1rem;
+}
+	
 p {
 	font-size: 1rem;
 }
 
+figure-img {
+	width: 100%;
+}
+
+figure-figcaption {
+	font-size: .75rem;
+}
