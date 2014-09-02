@@ -4,28 +4,70 @@ html {
 
 body {
 	background-color:#FFFFFF;
-	padding: 2rem 10%;
-	font-family: Arial; sans-serif;
+	margin: 2.5% 10%;
+	padding: .5rem 2.5%;
+	border-radius: 10px;
 }
 
 h1 {
 	color:#9A0500;
 	font-size: 1.5rem;
+	font-family: Arial; sans-serif;
+
 }
 
 h2 {
 	color:#9A0500;
 	font-size: 1rem;
+	font-family: Arial; sans-serif;
+
 }
 	
 p {
 	font-size: 1rem;
+	line-height: 1.5rem;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 }
 
-figure-img {
+strong {
+	font-style: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+figure {
+	padding: 0;
+	margin: 0;
+}
+
+figure,img {
 	width: 100%;
 }
 
-figure-figcaption {
-	font-size: .75rem;
+figure,figcaption {
+	font-size: .8rem;
+	line-height: 1.5rem;
+	color:#636363;
+}
+
+hr {
+	color:#BDBDBD;
+}
+
+blockquote {
+	padding: 0;
+	margin: 0;
+}
+
+blockquote, p, cite {
+}
+
+ol {
+	margin: 0 -1rem;
+}
+
+ol,li {
+	font-style: Arial, sans-serif;
 }
